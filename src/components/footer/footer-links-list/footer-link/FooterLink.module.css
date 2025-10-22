@@ -1,0 +1,14 @@
+.footerLinkHeading {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.footerLink {
+  font-size: 15px;
+  line-height: 20px;
+  color: #546285;
+  user-select: none;
+  cursor: pointer;
+}

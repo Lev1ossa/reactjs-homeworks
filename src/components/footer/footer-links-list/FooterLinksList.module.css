@@ -1,0 +1,8 @@
+.footerLinksList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 28px;
+  min-height: 212px;
+  width: 190px;
+}
