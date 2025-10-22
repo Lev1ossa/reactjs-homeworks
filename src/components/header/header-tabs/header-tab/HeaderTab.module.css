@@ -1,0 +1,9 @@
+.headerTab {
+  font-size: 15px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.active {
+  color: #35b8be;
+}

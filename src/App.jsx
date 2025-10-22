@@ -1,15 +1,15 @@
 import './App.css';
-import ItemList from './components/item-list/ItemList';
+import { Footer } from './components/footer/Footer';
+import { Header } from './components/header/Header';
+import { HomePage } from './pages/home-page/HomePage';
 
-const mockItems = ['Item1', 'Item2', 'Item3', 'Item4', 'Item5'];
-
-function App() {
+export function App() {
   return (
-    <div>
-      <h1>ReactJS Homework 1</h1>
-      <ItemList items={mockItems} />
-    </div>
+    // TODO replace with app router
+    <>
+      <Header />
+      <HomePage />
+      <Footer />
+    </>
   );
 }
-
-export default App;

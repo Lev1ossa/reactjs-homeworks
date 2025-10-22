@@ -1,0 +1,19 @@
+.buttonAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: inherit;
+  background: #35b8be;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonAction:hover {
+  background: #28c5c0;
+}

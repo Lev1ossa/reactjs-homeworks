@@ -1,0 +1,19 @@
+.headerNav {
+  width: 262px;
+}
+
+.headerTabs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .headerTabs {
+    flex-direction: column;
+  }
+
+  .headerNav {
+    width: 150px;
+  }
+}
